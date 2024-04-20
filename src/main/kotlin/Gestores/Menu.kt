@@ -5,18 +5,28 @@ import org.example.Interfaces.IMenu
 import org.example.Juegos.Ahorcado
 import org.example.Juegos.GeneradorSeries
 
+/**
+ * Clase que representa un menú de opciones interactivo.
+ * @property consola El gestor de la consola utilizado para la interacción.
+ */
 class Menu(
     private val consola: IGestorConsola,
 ): IMenu {
 
     private val genSeries = GeneradorSeries
 
+    /**
+     * Muestra las opciones del menú en la consola.
+     */
     override fun mostrarMenu() {
         consola.mostrarMensaje("1. Generar serie", true)
         consola.mostrarMensaje("2. Jugar al ahorcado", true)
         consola.mostrarMensaje("3. Salir", true)
     }
 
+    /**
+     * Genera una serie de números aleatorios dentro de un rango específico solicitando entrada al usuario.
+     */
     override fun generarSerie() {
         val( min, max ) = genSeries.generarRangoAleatorio()
 
@@ -36,10 +46,16 @@ class Menu(
 
     }
 
+    /**
+     * Inicia el juego del ahorcado.
+     */
     override fun jugarAhorcado() {
         Ahorcado(consola).jugar()
     }
 
+    /**
+     * Muestra el menú y maneja las selecciones del usuario hasta que elige salir.
+     */
     override fun menu() {
         while(true){
             consola.mostrarMensaje(" ", true)

@@ -11,13 +11,27 @@ class Palabra {
 
         data class Palabras(val palabras: List<String>)
 
+        /**
+         * Lee el fichero de texto
+         *
+         * @return una lista con las palabras del fichero de texto
+         */
         private fun leerFicheroTexto(ruta: String): List<String> = File(ruta).readLines()
 
+        /**
+         * Lee el fichero json
+         * @return una lista con las palabras del fichero json
+         */
         private fun leerFicheroJSON(ruta: String): List<String> {
             val json = File(ruta).readText()
             return Gson().fromJson(json, Palabras::class.java).palabras
         }
 
+        /**
+         * Obtiene una palabra aleatoria.
+         *
+         * @return La palabra aleatoria obtenida.
+         */
         fun obtenerPalabraAleatoria(): String{
             var palabras: List<String>
             var palabra : String

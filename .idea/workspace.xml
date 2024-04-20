@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca5bf630-00a7-4339-ada2-1586e3c2d311" name="Changes" comment="first commitç">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juegoAhorcadoGana.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/juegoAhorcadoPerdiendo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/palabras.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="ca5bf630-00a7-4339-ada2-1586e3c2d311" name="Changes" comment="arreglado serieDecreciente y ahorcado terminado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ahorcado.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Juegos/Ahorcado.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/GeneradorSeries.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Juegos/GeneradorSeries.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/GestorConsola.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Gestores/GestorConsola.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/IGestorConsola.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Interfaces/IGestorConsola.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/IMenu.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Interfaces/IMenu.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Menu.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Gestores/Menu.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Palabra.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Juegos/Palabra.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Gestores/GestorConsola.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Gestores/GestorConsola.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Gestores/Menu.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Gestores/Menu.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Juegos/Ahorcado.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Juegos/Ahorcado.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +86,20 @@
       <recent name="" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MainKt" />
+      <module name="RecuperacionEj1.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -120,11 +124,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712253027315</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="arreglado serieDecreciente y ahorcado terminado">
+      <option name="closed" value="true" />
+      <created>1713633194052</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713633194052</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commitç" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commitç" />
+    <MESSAGE value="arreglado serieDecreciente y ahorcado terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglado serieDecreciente y ahorcado terminado" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/Juegos/GeneradorSeries.kt</url>
+          <line>52</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

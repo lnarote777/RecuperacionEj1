@@ -1,6 +1,11 @@
-package org.example
+package org.example.Juegos
 
-class GeneradorSeries (private val consola: IGestorConsola) {
+import org.example.Gestores.GestorConsola
+
+object GeneradorSeries {
+
+    private val consola = GestorConsola()
+
     fun generarRangoAleatorio(): Pair<Int, Int> {
 
         do {
@@ -41,7 +46,7 @@ class GeneradorSeries (private val consola: IGestorConsola) {
             consola.mostrarMensaje(sumaStr)
             consola.mostrarMensaje(str, true)
         }
-        consola.mostrarMensaje("Suma -> $suma")
+        consola.mostrarMensaje("Suma -> $suma", true)
     }
 
     fun serieDecreciente(numero: Int, min: Int) {
@@ -50,19 +55,18 @@ class GeneradorSeries (private val consola: IGestorConsola) {
         var count = 1
         var num = numero
         var numMin = min
-        while (num >= min) {
+        while (num >= numMin) {
             var sum = 0
             var numeros = ""
-            for (i in num downTo min) {
+            for (i in num downTo numMin) {
                 sum += i
-                numeros += if (i == min) "$i" else "$i+"
-                numMin--
+                numeros += if (i == numMin) "$i" else "$i+"
             }
             total += sum
             suma += "${count++} -> $numeros = $sum\n"
-            num--
+            numMin++
         }
         suma += "Total => $total"
-        consola.mostrarMensaje(suma)
+        consola.mostrarMensaje(suma, true)
     }
 }

@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca5bf630-00a7-4339-ada2-1586e3c2d311" name="Changes" comment="" />
+    <list default="true" id="ca5bf630-00a7-4339-ada2-1586e3c2d311" name="Changes" comment="first commitç">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juegoAhorcadoGana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juegoAhorcadoPerdiendo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/palabras.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Ahorcado.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Juegos/Ahorcado.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/GeneradorSeries.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Juegos/GeneradorSeries.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/GestorConsola.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Gestores/GestorConsola.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/IGestorConsola.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Interfaces/IGestorConsola.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/IMenu.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Interfaces/IMenu.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Menu.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Gestores/Menu.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Palabra.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Juegos/Palabra.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,27 +30,79 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RecuperacionEj1" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2edsG23pfQEU9W1tyavh9YnvUP1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build RecuperacionEj1.executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/larad/Documents/1DAM/Programacion/RecuperacionEj1/src/main",
     "onboarding.tips.debug.path": "C:/Users/larad/Documents/1DAM/Programacion/RecuperacionEj1/src/main/kotlin/Main.kt"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\larad\Documents\1DAM\Programacion\RecuperacionEj1\src\main" />
+      <recent name="C:\Users\larad\Documents\1DAM\Programacion\RecuperacionEj1\src\main\kotlin" />
+      <recent name="C:\Users\larad\Documents\1DAM\Programacion\RecuperacionEj1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\larad\Documents\1DAM\Programacion\RecuperacionEj1\src" />
+      <recent name="C:\Users\larad\Documents\1DAM\Programacion\RecuperacionEj1\src\main" />
+      <recent name="C:\Users\larad\Documents\1DAM\Programacion\RecuperacionEj1\src\main\kotlin" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="Gestores" />
+      <recent name="Interfaces" />
+      <recent name="Juegos" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,17 +112,19 @@
       <option name="presentableId" value="Default" />
       <updated>1712245692044</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commitç">
+      <option name="closed" value="true" />
+      <created>1712253027315</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712253027315</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Main.kt</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commitç" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commitç" />
   </component>
 </project>

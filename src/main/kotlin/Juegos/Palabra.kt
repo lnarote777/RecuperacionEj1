@@ -1,4 +1,4 @@
-package org.example
+package org.example.Juegos
 
 import com.google.gson.Gson
 import java.io.File
@@ -19,9 +19,19 @@ class Palabra {
         }
 
         fun obtenerPalabraAleatoria(): String{
-            val palabras = leerFicheroJSON(RUTA_JSON)
-            val palabra = palabras.random()
+            var palabras: List<String>
+            var palabra : String
+
+            if (ES_JSON) {
+                palabras = leerFicheroJSON(RUTA_JSON)
+                palabra = palabras.random()
+            } else {
+                palabras = leerFicheroTexto(RUTA_TEXTO)
+                palabra = palabras.random()
+            }
+
             return palabra
+
         }
     }
 }
